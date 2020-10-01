@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
 import "./style.css"
-import headshot from "../../assets/images/graiffHeadshotSquare.jpg"
 import pdf from "../../assets/files/Resume.pdf"
 
 function Home() {
     return (
-        <Fragment>
+        < > 
             <div class="container" id="main-container">
                 <div class="row">
                     <div class="col-sm-12" id="home">
@@ -18,7 +17,7 @@ function Home() {
                     <h6>Hi, I'm Rocco. Thanks for visiting my site.</h6>
                 </div>
             </div>
-        </Fragment>
+        </ >
     );
 };
 
