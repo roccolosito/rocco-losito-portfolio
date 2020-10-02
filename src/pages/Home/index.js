@@ -1,6 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./style.css"
-import pdf from "../../assets/files/Resume.pdf"
 
 function Home() {
     return (
