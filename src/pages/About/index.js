@@ -8,12 +8,12 @@ function About() {
    <main className="main" id="main-container">
 
    <div className="row">
-       <div className="col-lg"></div>
+       <div className="col-lg" />
    </div>
 
    <div className="row">
        <div className="col-md-4 col-s">
-           <img className="img img-thumbnail" src="./images/self.jpg" alt="Rocco's profile picture">
+           <img className="img img-thumbnail" src="./images/self.jpg" alt="Rocco's profile picture" />
        </div>
        <div className="col-md-8 col-s about" id="about">
            <hr>
