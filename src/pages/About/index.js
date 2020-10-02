@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
+import { Resume } from "../assets/images/";
 
 function About() {
     return (
@@ -61,7 +62,7 @@ function About() {
            <hr>
            <p>Check Rocco out on <a href="https://www.linkedin.com/in/roccolosito/" target="_blank">LinkedIn</a> or
                <a href="https://github.com/roccolosito" target="_blank">GitHub</a>.
-               And, here is his <a href="./images/ROCCO LOSITO-Resume 2020.pdf" target="_blank">resumé</a>.</p>
+               And, here is his <a href={Resume} target="_blank">resumé</a>.</p>
        </div>
 
    </div>

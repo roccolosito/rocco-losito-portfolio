@@ -1,0 +1,19 @@
+form {
+    font-family: 'Lato', sans-serif;
+    margin: 15%;
+    text-align: center;
+    font-size: 1.2rem;
+    float: left;
+  }
+  
+  /* .col-sm-8 h1 {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+  } */
+  
+  button {
+    background-color: #fafafa;
+    font-family: 'Lato', sans-serif;
+    color: rgb(57, 60, 63);
+    font-size: 1.05rem;
+  }
