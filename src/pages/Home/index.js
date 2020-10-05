@@ -1,18 +1,19 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
+import self from "../../assets/images/self.jpg"
 
 function Home() {
     return (
         < > 
-            <div class="container" id="main-container">
-                <div class="row">
-                    <div class="col-sm-12" id="home">
-                        <a href="index.html"><img class="img img-thumbnail" src="./images/self.jpg" alt="Rocco's profile picture" /></a>
+            <div className="container" id="main-container">
+                <div className="row">
+                    <div className="col-sm-12" id="home">
+                        <a href="index.html"><img className="img img-thumbnail" src={self} alt="Rocco's profile picture" /></a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12" id="home-intro">
+            <div className="row">
+                <div className="col-sm-12" id="home-intro">
                     <h6>Hi, I'm Rocco. Thanks for visiting my site.</h6>
                 </div>
             </div>
