@@ -1,0 +1,38 @@
+/*About Page styling*/
+.ml-auto {
+    text-shadow: lightslategray;
+  }
+  
+  .main {
+    margin: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    padding-top: 40px;
+  }
+  
+  .email {
+    font-weight: 999;
+  }
+  
+  #about {
+    font-family: 'Lato', sans-serif;
+    padding-left: 70px;
+    padding-right: auto;
+    padding-top: 70px;
+    line-height: 5px;
+  }
+  
+  hr {
+    width: 31.25%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 0;
+    border-top: 0.25px solid lightgrey
+  }
+  
+  #about a {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    color: black;
+    text-decoration: underline;
+  }

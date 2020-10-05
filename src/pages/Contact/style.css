@@ -1,4 +1,5 @@
-form {
+/*Contact Page styling*/  
+#contact-container {
     font-family: 'Lato', sans-serif;
     margin: 15%;
     text-align: center;
@@ -6,12 +7,12 @@ form {
     float: left;
   }
   
-  /* .col-sm-8 h1 {
+  .col-sm-8 h1 {
     padding-bottom: 15px;
     font-size: 1.2rem;
-  } */
+  }
   
-  button {
+  .send {
     background-color: #fafafa;
     font-family: 'Lato', sans-serif;
     color: rgb(57, 60, 63);

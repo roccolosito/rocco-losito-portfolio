@@ -1,5 +1,6 @@
 import React from 'react';
-import "./style.css";
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
     return (
