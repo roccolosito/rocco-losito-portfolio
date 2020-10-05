@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import self from "../../assets/images/self.jpg"
 
 function About() {
     return (
@@ -11,7 +12,7 @@ function About() {
 
             <div class="row">
                 <div class="col-md-4 col-s">
-                    <img class="img img-thumbnail" src="./images/self.jpg" alt="Rocco's profile picture" />
+                    <img class="img img-thumbnail" src={self} alt="Rocco's profile picture" />
                 </div>
                 <div class="col-md-8 col-s about" id="about">
                     <hr />
