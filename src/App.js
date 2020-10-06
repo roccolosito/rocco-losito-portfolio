@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
@@ -19,6 +18,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Projects} />
             <Route exact path="/contact" component={Contact} />
+            {/* <Link to="/contact"></Link> */}
           </Switch>
         <Footer />
       </div>

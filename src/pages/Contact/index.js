@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export default class MyForm extends React.Component {
+class Contact extends React.Component {
     constructor(props) {
         super(props);
         this.submitForm = this.submitForm.bind(this);
@@ -15,7 +15,7 @@ export default class MyForm extends React.Component {
         return (
             <form
                 onSubmit={this.submitForm}
-                action="https://formspree.io/f/xyybzoal"
+                action="https://formspree.io/f/roccolosito"
                 method="POST"
             >
                 <label>Email:</label>
@@ -47,3 +47,5 @@ export default class MyForm extends React.Component {
         xhr.send(data);
     }
 }
+
+export default Contact;
