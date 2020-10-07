@@ -8,7 +8,7 @@ function Home() {
             <div className="container" id="main-container">
                 <div className="row">
                     <div className="col-sm-12" id="home">
-                        <a href="index.html"><img className="img img-thumbnail" src={self} alt="Rocco's profile picture" /></a>
+                        <a href="index.html"><img className="img img-thumbnail" src={self} alt="Rocco's profile" /></a>
                     </div>
                 </div>
             </div>

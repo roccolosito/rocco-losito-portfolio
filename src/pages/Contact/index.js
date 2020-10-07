@@ -15,7 +15,7 @@ class Contact extends React.Component {
         return (
             <form
                 onSubmit={this.submitForm}
-                action="https://formspree.io/f/roccolosito"
+                action="https://formspree.io/f/roccolosito@gmail.com"
                 method="POST"
             >
                 <label>Email:</label>

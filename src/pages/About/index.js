@@ -12,7 +12,7 @@ function About() {
 
             <div class="row">
                 <div class="col-md-4 col-s">
-                    <img class="img img-thumbnail" src={self} alt="Rocco's profile picture" />
+                    <img class="img img-thumbnail" src={self} alt="Rocco's profile" />
                 </div>
                 <div class="col-md-8 col-s about" id="about">
                     <hr />
@@ -59,9 +59,9 @@ function About() {
                     <br />
                     <br />
                     <hr />
-                    <p>Check Rocco out on <a href="https://www.linkedin.com/in/roccolosito/" target="_blank">LinkedIn</a> or
-                    <a href="https://github.com/roccolosito" target="_blank"> GitHub</a>.
-                    And, here is his <a href="./images/ROCCO LOSITO-Resume 2020.pdf" target="_blank">resumé</a>.</p>
+                    <p>Check Rocco out on <a href="https://www.linkedin.com/in/roccolosito/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or
+                    <a href="https://github.com/roccolosito" target="_blank" rel="noopener noreferrer"> GitHub</a>.
+                    And, here is his <a href="./images/ROCCO LOSITO-Resume 2020.pdf" target="_blank" rel="noopener noreferrer">resumé</a>.</p>
                 </div>
 
             </div>
