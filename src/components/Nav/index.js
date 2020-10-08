@@ -20,6 +20,9 @@ function Nav() {
                         <a className="nav-link" href="/portfolio">Portfolio <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
+                        <a className="nav-link" href="/drawings">Drawings <span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item active">
                         <a className="nav-link" href="/contact">Contact <span className="sr-only">(current)</span></a>
                     </li>
                 </ul>

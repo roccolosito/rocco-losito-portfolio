@@ -1,0 +1,58 @@
+/*Drawings Page styling*/
+#drawings-container {
+    font-family: 'Lato', sans-serif;
+    margin: 35px 0px 10px -55px;
+  }
+  
+  #text h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    margin-left: 135px;
+  }
+  
+  #text hr {
+      width: 55%;
+      margin-left: 135px;
+      margin-right: auto;
+      margin-top: 20%;
+      border-top: 0.25px solid lightgrey
+  }
+
+   #drawings {
+      margin-left: 0;
+   }
+  
+  /* #drawings a {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    color: rgb(14, 13, 13);
+  } */
+  
+  /* #drawings2 a {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    color: rgb(14, 13, 13);
+  } */
+  
+  /* #proj:hover {
+    font-weight: bold;
+    font-weight: 600;
+  } */
+  
+  img {
+    /* display: block; */
+    height: 325px;
+    width: 300px;
+    border: 0.25px solid lightgray;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    padding-left: 0%;
+  }
+
+  img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  

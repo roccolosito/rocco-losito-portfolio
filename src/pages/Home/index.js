@@ -14,7 +14,8 @@ function Home() {
             </div>
             <div className="row">
                 <div className="col-sm-12" id="home-intro">
-                    <h6>Hi, I'm Rocco. Thanks for visiting my site.</h6>
+                    <h6>Hi, I'm Rocco, a full-stack web developer and illustrator.</h6>
+                    <h6>Thank you for visiting my site.</h6>
                 </div>
             </div>
         </ >

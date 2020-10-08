@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import About from "./pages/About"
 import Projects from "./components/Projects";
+import Drawings from "./components/Drawings";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Projects} />
+            <Route exact path="/drawings" component={Drawings} />
             <Route exact path="/contact" component={Contact} />
             {/* <Link to="/contact"></Link> */}
           </Switch>

@@ -21,9 +21,9 @@ body {
     background-color: #fafafa;
 }
 
-#navbarSupportedContent a {
+#navbarSupportedContent li {
     color: rgb(81, 88, 94);
-    text-align: right;
+    float: right;
 }
 
 .nav-link:hover {
