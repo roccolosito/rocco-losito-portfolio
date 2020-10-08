@@ -20,19 +20,19 @@ function Drawings() {
                 </div>
 
                 <div className="col-md-4 col-xs apps" id="drawings">
-                    <img className="app-graphic"
+                    <img className="image"
                         src={rhino} alt="rhino drawing" />
                     <h6>Rhino</h6>
                     <div className="row bottom-app">
                         <div className="col col-xs">
-                            <img className="app-graphic"
+                            <img className="image"
                                 src={moped} alt="moped drawing" />
                             <h6>Moped</h6>
                         </div>
                     </div>
                     <div className="row bottom-app">
                         <div className="col col-xs">
-                            <img className="app-graphic"
+                            <img className="image"
                                 src={tv} alt="TV drawing" />
                             <h6>Television</h6>
                         </div>
@@ -40,20 +40,20 @@ function Drawings() {
                 </div>
 
                 <div className="col-md-4 col-xs apps" id="drawings2">
-                    <img className="app-graphic" src={ghost}
+                    <img className="image" src={ghost}
                         alt="ghost drawing" />
                     <h6>A Ghost Story</h6>
                     <div className="row bottom-app">
                         <div className="col col-xs">
-                            <img className="app-graphic"
+                            <img className="image"
                                 src={bunny} alt="A Christmas Story drawing" />
                             <h6>A Christmas Story</h6>
                         </div>
                     </div>
                     <div className="row bottom-app">
                         <div className="col col-xs">
-                            <img className="app-graphic"
-                                src={falcor} alt="new york times article search page" />
+                            <img className="image"
+                                src={falcor} alt="Falcor drawing" />
                             <h6>Falcor</h6>
                         </div>
                     </div>
