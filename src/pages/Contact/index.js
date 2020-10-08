@@ -20,9 +20,9 @@ class Contact extends React.Component {
             >
                 <label>Email:</label>
                 <input type="email" name="email" />
-                <label>Message:</label>
+                <textarea>Message:</textarea>
                 <input type="text" name="message" />
-                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Send</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
         );

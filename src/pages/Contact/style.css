@@ -1,20 +1,40 @@
-/*Contact Page styling*/  
-#contact-container {
-    font-family: 'Lato', sans-serif;
-    margin: 15%;
-    text-align: center;
-    font-size: 1.2rem;
-    float: left;
-  }
-  
-  .col-sm-8 h1 {
-    padding-bottom: 15px;
-    font-size: 1.2rem;
-  }
-  
-  .send {
-    background-color: #fafafa;
-    font-family: 'Lato', sans-serif;
-    color: rgb(57, 60, 63);
-    font-size: 1.05rem;
-  }
+/*Contact Page styling*/
+form {
+  font-family: 'Lato', sans-serif;
+  z-index: 5px;
+  margin: 175px auto;
+  width: 50%;
+  border: 1px solid black;
+}
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+textarea:hover {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(205, 214, 223);
+  color: rgb(245, 252, 252);
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+input:hover {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(205, 214, 223);
+  color: rgb(245, 252, 252);
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+}
