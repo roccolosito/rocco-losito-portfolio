@@ -20,7 +20,6 @@ function App() {
             <Route exact path="/portfolio" component={Projects} />
             <Route exact path="/drawings" component={Drawings} />
             <Route exact path="/contact" component={Contact} />
-            {/* <Link to="/contact"></Link> */}
           </Switch>
         <Footer />
       </div>

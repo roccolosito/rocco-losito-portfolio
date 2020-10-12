@@ -18,12 +18,12 @@ class Contact extends React.Component {
                 action="https://formspree.io/f/roccolosito@gmail.com"
                 method="POST"
             >
-                <label>Email:</label>
-                <input type="email" name="email" />
-                <textarea>Message:</textarea>
-                <input type="text" name="message" />
+                <label>Reach Out !</label>
+                <input placeholder="Email:" type="email" name="email"/>
+                <textarea className="message" placeholder="Message:" type="text" name="message"/>
+                {/* <input type="text" name="message" /> */}
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button>Send</button>}
-                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                {status === "ERROR" && <p>Oops! There was an error.</p>}
             </form>
         );
     }

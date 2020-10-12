@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import self from "../../assets/images/self.jpg"
+import self from "../../assets/images/self.jpg";
+import resume from "../../assets/files/resume.pdf"
 
 function About() {
     return (
@@ -61,7 +62,7 @@ function About() {
                     <hr />
                     <p>Check Rocco out on <a href="https://www.linkedin.com/in/roccolosito/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or
                     <a href="https://github.com/roccolosito" target="_blank" rel="noopener noreferrer"> GitHub</a>.
-                    And, here is his <a href="./images/ROCCO LOSITO-Resume 2020.pdf" target="_blank" rel="noopener noreferrer">resumé</a>.</p>
+                    And, here is his <a href={resume} target="_blank" rel="noopener noreferrer">resumé</a>.</p>
                 </div>
 
             </div>
