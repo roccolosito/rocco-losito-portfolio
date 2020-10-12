@@ -16,7 +16,7 @@ function Drawings() {
 
                 <div className="col-md-4 col-xs" id="text">
                     <hr />
-                    <h1>Select Drawings</h1>
+                    <h1>Selected Drawings</h1>
                 </div>
 
                 <div className="col-md-4 col-xs apps" id="drawings">

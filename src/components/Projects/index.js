@@ -18,7 +18,7 @@ function Projects() {
 
                 <div className="col-md-4 col-xs" id="text">
                     <hr />
-                    <h1>Select App Projects</h1>
+                    <h1>Selected App Projects</h1>
                 </div>
 
                 <div className="col-md-4 col-xs apps" id="projects">
