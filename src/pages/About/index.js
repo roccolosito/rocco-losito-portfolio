@@ -5,17 +5,17 @@ import resume from "../../assets/files/resume.pdf"
 
 function About() {
     return (
-        <main class="main" id="main-container">
+        <main className="main" id="main-container">
 
-            <div class="row">
-                <div class="col-lg"></div>
+            <div className="row">
+                <div className="col-lg"></div>
             </div>
 
-            <div class="row">
-                <div class="col-md-4 col-s">
-                    <img class="img img-thumbnail" src={self} alt="Rocco's profile" />
+            <div className="row">
+                <div className="col-md-4 col-s">
+                    <img className="img img-thumbnail" src={self} alt="Rocco's profile" />
                 </div>
-                <div class="col-md-8 col-s about" id="about">
+                <div className="col-md-8 col-s about" id="about">
                     <hr />
                     <p>Rocco is based out of Greenpoint, Brooklyn and currently studying full stack web development at</p>
                     <p>Columbia University. Rocco is also a real estate broker spearheading sales and leasing for a boutique
@@ -29,7 +29,7 @@ function About() {
                     <p>or making various pastas from scratch!</p>
                     <br />
                     <br />
-                    <p>To work with Rocco, please email <span class="email">roccolosito -at- gmail.com</span> or text 347.237.7007.</p>
+                    <p>To work with Rocco, please email <span className="email">roccolosito -at- gmail.com</span> or text 347.237.7007.</p>
                     <br />
                     <br />
                     <br />
