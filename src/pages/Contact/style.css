@@ -1,7 +1,7 @@
 /*Contact Page styling*/
 form {
   font-family: 'Lato', sans-serif;
-  z-index: 5px;
+  /* z-index: 5px; */
   margin: 175px auto;
   width: 50%;
   /* border: 1px solid black; */
