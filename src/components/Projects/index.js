@@ -5,7 +5,7 @@ import burger from "../../assets/images/burger.png";
 import weather from "../../assets/images/weather.png";
 import stella from "../../assets/images/stella.png";
 import note from "../../assets/images/note.png";
-import nyt from "../../assets/images/nyt.png";
+import boroughd from "../../assets/images/boroughd.png";
 import budget from "../../assets/images/budget.png";
 import employee from "../../assets/images/employee.png";
 
@@ -22,9 +22,9 @@ function Projects() {
                 </div>
 
                 <div className="col-md-4 col-xs apps" id="projects">
-                    <a href="https://roccolosito.github.io/meditationApp/" target="_blank" rel="noopener noreferrer"><img className="app-graphic"
-                        src={meditation} alt="meditation app interface" /></a>
-                    <h5><a href="https://github.com/roccolosito/meditationApp" target="_blank" rel="noopener noreferrer">ShotGlass Meditation</a></h5>
+                    <a href="https://aptreact.web.app/" target="_blank" rel="noopener noreferrer"><img className="app-graphic"
+                        src={boroughd} alt="boroughd real estate homepage" /></a>
+                    <h5><a href="https://github.com/roccolosito/boroughd" target="_blank" rel="noopener noreferrer">Borough'd</a></h5>
                     <div className="row bottom-app">
                         <div className="col col-xs">
                             <a href="https://chomptheburger.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="app-graphic"
@@ -68,9 +68,9 @@ function Projects() {
                     </div>
                     <div className="row bottom-app">
                         <div className="col col-xs">
-                            <a href="https://roccolosito.github.io/NYT-Article-Search/" target="_blank" rel="noopener noreferrer"><img className="app-graphic"
-                                src={nyt} alt="new york times article search page" /></a>
-                            <h5><a href="https://github.com/roccolosito/NYT-Article-Search" target="_blank" rel="noopener noreferrer">NYT Article Search</a></h5>
+                            <a href="https://roccolosito.github.io/meditationApp/" target="_blank" rel="noopener noreferrer"><img className="app-graphic"
+                                src={meditation} alt="meditation app interface" /></a>
+                            <h5><a href="https://github.com/roccolosito/meditationApp" target="_blank" rel="noopener noreferrer">ShotGlass Meditation</a></h5>
                         </div>
                     </div>
                 </div>
