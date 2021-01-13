@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <footer>
-            <p className="container-fluid footer"> Copyright © 2020 Rocco Losito</p>
+            <p className="container-fluid footer"> Copyright © 2021 Rocco Losito</p>
         </footer>
     );
 };
