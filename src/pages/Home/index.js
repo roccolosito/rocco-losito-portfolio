@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import self from "../../assets/images/self.jpg"
+import self from "../../assets/images/roc.jpg"
 
 function Home() {
     return (
