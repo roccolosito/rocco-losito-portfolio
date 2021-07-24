@@ -14,7 +14,7 @@ function Home() {
             </div>
             <div className="row">
                 <div className="col-sm-12" id="home-intro">
-                    <h6>Hi, I'm Rocco, a full-stack web developer and illustrator.</h6>
+                    <h6>Hi, I'm Rocco, a software engineer at <a href="https://www.unqork.com/" target="_blank" rel="noopener noreferrer">Unqork</a>, musician, and illustrator.</h6>
                     <h6>Thank you for visiting my site.</h6>
                 </div>
             </div>
