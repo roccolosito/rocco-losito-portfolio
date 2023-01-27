@@ -17,11 +17,11 @@ function About() {
                 </div>
                 <div className="col-md-8 col-s about" id="about">
                     <hr />
-                    <p>I am based out of Greenpoint, Brooklyn and a recent grad from Columbia University's full stack web</p>
+                    <p>I am based out of Brooklyn and a recent grad from Columbia University's full stack web</p>
                     <p>development bootcamp. I am also a real estate broker spearheading sales and leasing for a boutique
                     firm
                     in</p>
-                    <p>Greenpoint (Coda Real Estate), where I've worked for 8 years. Prior to that I was in the music
+                    <p>Brooklyn (Coda Real Estate), where I've worked for 8 years. Prior to that I was in the music
                     business</p>
                     <p>for nearly a decade as the Global Administration/Copyright Manager for Sony/ATV and EMI Music</p>
                     <p>Publishing. I graduated from New York University with a bachelor of music degree in 2007, and</p>
